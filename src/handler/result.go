@@ -1,8 +1,8 @@
 package handler
 
 type Result struct {
-	Result string
-	ErrMsg string
+	RESULT string
+	ERRMSG string
 	TableList [] map[string]string
 }
 
@@ -13,7 +13,7 @@ type Result struct {
 
 
 func NewResult(result string,errMsg string,data[] map[string]string)*Result{
- 	return &Result{Result:result,ErrMsg:errMsg,TableList:data}
+ 	return &Result{RESULT:result,ERRMSG:errMsg,TableList:data}
 }
 
 //func NewRow(data map[string]string) *Row{

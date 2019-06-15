@@ -48,8 +48,8 @@ func (c *Order) GetData()*Result {
 		"CPXH":"产品型号",
 		"GCSBH":"工程师编号",
 		"GCSXM":"工程师姓名",
-		"KHKSS":"J考核开始时间",
-		"YYSJ":"预约时间",
+		"KHKSS":"2018-12-12 12:12:12",
+		"YYSJ":"2018-12-12 12:12:12",
 	}
 	rows := []map[string]string{data}
 	result := NewResult("111","test",rows)

@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"handler"
+
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -39,7 +40,7 @@ func main() {
 		c.JSON(http.StatusOK,d)
 	})
 	//改派
-	router.POST("/API_YY_HC",  func(c *gin.Context) {
+	router.POST("/API_GP_HC",  func(c *gin.Context) {
 		sign := c.PostForm(SIGN)
 		appkey:= c.PostForm(APPKEY)
 		pgdh := c.PostForm(PGDH)
@@ -54,7 +55,22 @@ func main() {
 		d := handler.NewAppointment().GetData()
 		c.JSON(http.StatusOK,d)
 	})
+	//改派
+	router.GET("/test",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		appkey:= c.PostForm(APPKEY)
+		pgdh := c.PostForm(PGDH)
+		yysj:= c.PostForm(YYSJ)
+		gcsbh:= c.PostForm(GCSBH)
+		fmt.Println(sign)
+		fmt.Println(appkey)
+		fmt.Println(pgdh)
+		fmt.Println(yysj)
+		fmt.Println(gcsbh)
 
+		d := handler.NewAppointment().GetData()
+		c.JSON(http.StatusOK,d)
+	})
 
 
 	router.Run(":8888") //for a hard coded port
