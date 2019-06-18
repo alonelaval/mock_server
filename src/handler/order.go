@@ -7,7 +7,7 @@ type Order struct {
 
 func (c *Order) GetData()*Result {
 
-	var data= map[string]string{"PGDH":"1",
+	var data= map[string]interface{}{"PGDH":"1",
 		"PGLY":"派工来源",
 		"LYID":"来源ID",
 		"TMMJID":"天猫买家ID",
@@ -51,7 +51,7 @@ func (c *Order) GetData()*Result {
 		"KHKSS":"2018-12-12 12:12:12",
 		"YYSJ":"2018-12-12 12:12:12",
 	}
-	rows := []map[string]string{data}
+	rows := []map[string]interface{}{data}
 	result := NewResult("111","test",rows)
 
 	//jsonBytes, err := json.Marshal(result)

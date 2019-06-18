@@ -12,6 +12,7 @@ const SIGN ="SIGN"
 const APPKEY="APPKEY"
 const PGDH,YYSJ= "PGDH","YYSJ"
 const GCSBH = "GCSBH"
+const PARAM  ="Param"
 func main() {
 
 
@@ -53,6 +54,15 @@ func main() {
 		fmt.Println(gcsbh)
 
 		d := handler.NewAppointment().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+	router.POST("/API_DJ_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewPointInspection().GetData()
 		c.JSON(http.StatusOK,d)
 	})
 	//改派

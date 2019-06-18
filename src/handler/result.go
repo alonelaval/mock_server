@@ -3,7 +3,7 @@ package handler
 type Result struct {
 	RESULT string
 	ERRMSG string
-	TableList [] map[string]string
+	TableList [] map[string]interface{}
 }
 
 //type Row struct {
@@ -12,7 +12,7 @@ type Result struct {
 
 
 
-func NewResult(result string,errMsg string,data[] map[string]string)*Result{
+func NewResult(result string,errMsg string,data[] map[string]interface{})*Result{
  	return &Result{RESULT:result,ERRMSG:errMsg,TableList:data}
 }
 
