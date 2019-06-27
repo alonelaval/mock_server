@@ -65,6 +65,145 @@ func main() {
 		d := handler.NewPointInspection().GetData()
 		c.JSON(http.StatusOK,d)
 	})
+	router.POST("/API_GLYZL_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewAdmin().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+	router.POST("/API_GCSZL_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewEngineer().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+	router.POST("/API_XXYZL_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewMessenger().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+
+	router.POST("/API_HSZX_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewAccountingCenter().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+
+	router.POST("/API_HSDQ_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewAccountingRegion().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+
+
+	router.POST("/API_HSPQ_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewAccountingArea().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+
+
+	router.POST("/API_FWDZL_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewServiceShop().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+
+	router.POST("/API_CPPL_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewProductCategory().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+	router.POST("/API_CPLX_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewProductType().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+	router.POST("/API_CPXL_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewProductSeries().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+	router.POST("/API_CPZL_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewProduct().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+	router.POST("/API_QYDA_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewArea().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+
+	router.POST("/API_QYWDDY_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewAreaShop().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+	router.POST("/API_YBJGYJBZ_CX",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewProductPrice().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+
+
+
+
+
 	//改派
 	router.GET("/test",  func(c *gin.Context) {
 		sign := c.PostForm(SIGN)

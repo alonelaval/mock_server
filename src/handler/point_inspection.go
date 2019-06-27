@@ -6,10 +6,10 @@ type PointInspection struct {
 func (c *PointInspection) GetData()*Result {
 
 	var subData = map[string]interface{}{
-		"xmbh":"项目编号",
-		"xmmc":"项目名称",
-		"xmjz":"项目基准",
-		"djff":"点检方法",
+		"XMBH":"项目编号",
+		"XMMC":"项目名称",
+		"XMJZ":"项目基准",
+		"DJFF":"点检方法",
 	}
 	var subList= []map[string]interface{}{subData}
 

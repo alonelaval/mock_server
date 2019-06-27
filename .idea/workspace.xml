@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90cf7180-0e5d-4a1c-acad-92ea1527599f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/handler/point_inspection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/accounting_area.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/accounting_center.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/accounting_region.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/admin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/area.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/area_shop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/engineer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/messenger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/product_category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/product_price.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/product_series.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/product_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler/service_shop.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/emirpasic/gods" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/emirpasic/gods" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/emirpasic/gods/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/emirpasic/gods/.gitignore" afterDir="false" />
@@ -511,11 +524,8 @@
       <change beforePath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/yaml.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/yaml.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/yamlh.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/yamlh.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/yamlprivateh.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/yamlprivateh.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handler/appointment.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/handler/appointment.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handler/order.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/handler/order.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handler/reassignment.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/handler/reassignment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handler/point_inspection.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/handler/point_inspection.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/handler/result.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/handler/result.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -533,26 +543,142 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="462">
+              <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
+              <folding>
+                <element signature="e#14#83#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/handler/appointment.go">
+        <entry file="file://$PROJECT_DIR$/src/handler/accounting_center.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/accounting_region.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/service_shop.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mock_server.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/handler/order.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-365">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="850">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/product_category.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/product_type.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/product.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/area.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/product_price.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/area_shop.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/product_series.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="18" selection-start-line="7" selection-start-column="8" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/accounting_area.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/admin.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/engineer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -561,7 +687,7 @@
         <entry file="file://$PROJECT_DIR$/src/handler/reassignment.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -571,15 +697,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/handler/point_inspection.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -596,8 +713,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/handler/result.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -616,6 +733,13 @@
     <findStrings>
       <find>YY</find>
       <find>pgly</find>
+      <find>API_CPZL_CX</find>
+      <find>API_HSZX_CX</find>
+      <find>API_FWDZL_CX</find>
+      <find>API_CPLX_CX</find>
+      <find>HSZXBH</find>
+      <find>ZJDDM</find>
+      <find>zjddm</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -641,12 +765,26 @@
         <option value="$PROJECT_DIR$/src/order.go" />
         <option value="$PROJECT_DIR$/src/reassignment.go" />
         <option value="$PROJECT_DIR$/src/result.go" />
-        <option value="$PROJECT_DIR$/src/handler/result.go" />
         <option value="$PROJECT_DIR$/src/handler/appointment.go" />
         <option value="$PROJECT_DIR$/src/handler/order.go" />
         <option value="$PROJECT_DIR$/src/handler/reassignment.go" />
         <option value="$PROJECT_DIR$/src/handler/point_inspection.go" />
+        <option value="$PROJECT_DIR$/src/handler/messenger.go" />
+        <option value="$PROJECT_DIR$/src/handler/admin.go" />
+        <option value="$PROJECT_DIR$/src/handler/engineer.go" />
+        <option value="$PROJECT_DIR$/src/handler/product_category.go" />
+        <option value="$PROJECT_DIR$/src/handler/area_shop.go" />
+        <option value="$PROJECT_DIR$/src/handler/area.go" />
+        <option value="$PROJECT_DIR$/src/handler/product_series.go" />
+        <option value="$PROJECT_DIR$/src/handler/product_type.go" />
+        <option value="$PROJECT_DIR$/src/handler/product_price.go" />
         <option value="$PROJECT_DIR$/src/main.go" />
+        <option value="$PROJECT_DIR$/src/handler/product.go" />
+        <option value="$PROJECT_DIR$/src/handler/service_shop.go" />
+        <option value="$PROJECT_DIR$/src/handler/accounting_region.go" />
+        <option value="$PROJECT_DIR$/src/handler/accounting_area.go" />
+        <option value="$PROJECT_DIR$/src/handler/accounting_center.go" />
+        <option value="$PROJECT_DIR$/src/handler/result.go" />
       </list>
     </option>
   </component>
@@ -666,9 +804,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1297" />
-    <option name="y" value="17" />
-    <option name="width" value="1214" />
+    <option name="x" value="1287" />
+    <option name="y" value="6" />
+    <option name="width" value="1226" />
     <option name="height" value="1431" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -704,22 +842,6 @@
             </path>
             <path>
               <item name="mock_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mock_server" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mock_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mock_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mock_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mock_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mock_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -740,7 +862,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="go.vgo.advertise" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/handler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -751,8 +873,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/handler" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -840,12 +962,18 @@
       <workItem from="1560049700817" duration="2510000" />
       <workItem from="1560425874497" duration="3941000" />
       <workItem from="1560500881315" duration="7220000" />
-      <workItem from="1560781199233" duration="3448000" />
+      <workItem from="1560781199233" duration="4064000" />
+      <workItem from="1560944577561" duration="5850000" />
+      <workItem from="1561030233425" duration="6829000" />
+      <workItem from="1561088423908" duration="220000" />
+      <workItem from="1561376613026" duration="3825000" />
+      <workItem from="1561461494628" duration="2209000" />
+      <workItem from="1561548055755" duration="1816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30099000" />
+    <option name="totallyTimeSpent" value="51464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -857,10 +985,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1297" y="17" width="1214" height="1431" extended-state="0" />
+    <frame x="1287" y="6" width="1226" height="1431" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21928328" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2170608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2496318" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -872,8 +1000,8 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49913043" weight="0.2240478" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.4985507" visible="true" weight="0.3995519" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49913043" weight="0.2867812" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.4985507" visible="true" weight="0.30918595" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3289256" />
@@ -882,7 +1010,7 @@
       <window_info anchor="bottom" id="Application Servers" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49623188" weight="0.3502614" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49623188" weight="0.17475729" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="BPMNPalette" order="0" />
@@ -901,7 +1029,7 @@
       <window_info anchor="right" id="Capture Analysis" order="13" />
       <window_info anchor="right" id="Bean Validation" order="14" />
       <window_info anchor="right" id="Theme Preview" order="15" />
-      <window_info anchor="right" id="Maven" order="16" />
+      <window_info anchor="right" id="Maven" order="16" weight="0.3293919" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,9 +1037,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/handler/order_test.go" />
-    <entry file="file://$PROJECT_DIR$/mock_server.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -955,31 +1080,142 @@
     <entry file="file://$PROJECT_DIR$/src/reassignment.go" />
     <entry file="file://$PROJECT_DIR$/go.mod" />
     <entry file="file://$PROJECT_DIR$/src/result.go" />
-    <entry file="file://$PROJECT_DIR$/src/github.com/gin-gonic/gin/tree.go">
+    <entry file="file://$PROJECT_DIR$/src/handler/messenger.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="244" selection-start-line="244" selection-end-line="244" />
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/handler/result.go">
+    <entry file="file://$PROJECT_DIR$/src/handler/appointment.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/point_inspection.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/accounting_center.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/accounting_region.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/service_shop.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/handler/order.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-365">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="850">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/product_category.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/product_type.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/product.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/area.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/product_price.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/area_shop.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/product_series.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" selection-start-line="7" selection-start-column="8" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/accounting_area.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/admin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/engineer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/handler/reassignment.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -990,24 +1226,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/handler/point_inspection.go">
+    <entry file="file://$PROJECT_DIR$/src/github.com/gin-gonic/gin/tree.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="4080">
+          <caret line="244" selection-start-line="244" selection-end-line="244" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/handler/appointment.go">
+    <entry file="file://$PROJECT_DIR$/src/handler/result.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

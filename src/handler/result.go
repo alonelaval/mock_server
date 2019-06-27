@@ -19,3 +19,6 @@ func NewResult(result string,errMsg string,data[] map[string]interface{})*Result
 //func NewRow(data map[string]string) *Row{
 //	return &Row{Data:data}
 //}
+
+
+
