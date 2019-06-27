@@ -201,6 +201,35 @@ func main() {
 	})
 
 
+	//router.POST("/API_YBJGYJBZ_CX",  func(c *gin.Context) {
+	//	sign := c.PostForm(SIGN)
+	//	params:= c.PostForm(PARAM)
+	//	fmt.Println(sign)
+	//	fmt.Println(params)
+	//
+	//	d := handler.NewProductPrice().GetData()
+	//	c.JSON(http.StatusOK,d)
+	//})
+
+
+	router.POST("/API_GP_ZF",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewCancelOrder().GetData()
+		c.JSON(http.StatusOK,d)
+	})
+	router.POST("/API_FWWC_HC",  func(c *gin.Context) {
+		sign := c.PostForm(SIGN)
+		params:= c.PostForm(PARAM)
+		fmt.Println(sign)
+		fmt.Println(params)
+
+		d := handler.NewFinishOrder().GetData()
+		c.JSON(http.StatusOK,d)
+	})
 
 
 
